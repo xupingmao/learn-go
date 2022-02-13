@@ -29,5 +29,9 @@ func main() {
 	arr := [2]int{1,2}
 	fmt.Printf("arr = %o\n", arr);
 
+	// 自动推导长度
+	var arr2 = [...]int{1,2,3}
+	fmt.Printf("arr2 = %o\n", arr2);
+
 	testIndexOutOfRange()
 }
